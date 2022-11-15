@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ticket Booking</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="background">
+    <div class="box">
+        <h1 style="margin:10px 10px; color:burlywood">Movie1</h1>
+        <p><h2 style="color:burlywood">Number of available seats:23</h2></p>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+
+                </div>
+                <div class="image"><img src="https://www.scoopearth.com/wp-content/uploads/2022/07/InfinityWar5aabd55fed5fa.jpg" 
+                    alt="InfinityWar" width="200px" height="225px">
+                </div>
+                <div class="lable">
+                    <div>
+                        <label for="text"><b>Name:</b></span></label>
+                        <input type="text" required id="text" name="text"><br>
+                    </div>
+                    <div>
+                        <label for="email"><b>Email:</b></span></label>
+                        <input type="email" required id="text" name="email">  <br>
+                    </div>
+                    <div>
+                        <label for="number"><b>Phone Number:</b></span></label>
+                        <input type="number" required id="text" name="number">  <br>
+                    </div>
+                    <div>
+                        <label for="seat"><b>Number of Seats:</b></label>
+                        <input list="browsers" name="seat" id="seat">
+                        <datalist id="browsers">
+                        <option value="1">
+                        <option value="2">
+                        </datalist><br>
+                    </div>
+                    <div>
+                        <label for="attendee"><b>Number of Attendee 2:</b></label>
+                        <input type="text" name="attendee" id="attendee"><br>
+                    </div>
+                    <div>
+                        <button type="submit"><b>Submit</b></button>
+                        <button type="submit"><b>Cancel</b></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
